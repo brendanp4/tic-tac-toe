@@ -18,6 +18,12 @@ h2 {
     font-size: 2.5rem;
 }
 
+h3 {
+    color: rgb(136, 240, 39);
+    font-family: 'Grandstander', cursive;
+    font-size: 1.5rem;
+}
+
 #gameInfo {
     display: grid;
 }
