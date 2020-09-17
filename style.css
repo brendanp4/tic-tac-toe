@@ -1,0 +1,40 @@
+body {
+    background-image: url(img/background.jpg);
+    display:flex;
+    justify-content: space-between;
+
+}
+
+h1 {
+    color: rgb(255, 192, 74);
+    font-family: 'Grandstander', cursive;
+    font-size: 4rem;
+    margin: 10px auto;
+}
+
+h2 {
+    color: rgb(255, 192, 74);
+    font-family: 'Grandstander', cursive;
+    font-size: 2.5rem;
+}
+
+#gameInfo {
+    display: grid;
+}
+
+
+#gameboard {
+    display: grid;
+    grid-template-columns: repeat(3, 160px);
+    grid-template-rows: repeat(3, 160px);
+}
+
+.game-cell {
+    background-color: rgb(200, 238, 123);
+    border: solid;
+    border-color: rgb(70, 39, 33);
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    cursor: pointer;
+}
